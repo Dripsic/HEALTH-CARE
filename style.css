@@ -1,0 +1,490 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-color: aqua;  */
+
+} 
+.header {
+    height: 100vh;
+     background-color: aqua;
+    background-image: url(image/download\ \(14\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-section {
+ display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    line-height: 35px;
+    
+
+
+    
+}
+.header-section>nav {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+    
+} 
+nav>a {
+    text-decoration: none;
+
+    
+    font-weight: 700;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+nav>a:hover {
+    color: #70d5e0;
+    
+    
+   
+
+}
+.btn {
+    text-decoration: none;
+    border: 2px solid blue;
+    padding: 5px;
+}
+header{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+    
+}
+.header h1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    font-family: cursive;
+    color: blueviolet;
+    text-align: center;
+     margin-top: 2rem;
+   
+
+}
+.header p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    
+    text-align: center;
+}
+.btn-cont {
+   display: grid;
+   
+   grid-template-columns: 1fr 1fr;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 80px; 
+}
+.learnbtn {
+    
+   /* margin-left: 100px ; */
+   
+    font-size: 14px;
+    font-weight: 700;
+    background-color:blue;
+    color:white;
+    text-decoration: none;
+    
+
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    
+
+    
+}
+.hero {
+  
+    height: 90vh;
+    background-color: blue;
+   background-image: url(image/Happy\ smiling\ male\ doctor\ with\ hand\ present\ something\ empty\ space\,\ standing\ isolate\ on\ transparent\ background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hero h1 {
+    font-size: 25px;
+    padding: 10px;
+ color: blue;
+ font-family: cursive;
+}
+  p {
+    font-size: 25px;
+    padding: 20px;
+    color: black;
+    font-family: cursive;
+}
+
+
+.cont h1 {
+    color: blue;
+    padding: 10px;
+   
+   
+}
+.explore-cont {
+height: 50vh;
+   
+}
+
+.explore-cont h2 {
+    padding: 10px;
+}
+.box {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    height: 400px;
+    
+    text-align: center;
+    /* background-color: blue; */
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+color: white;
+    
+
+} 
+button {
+  background: #0077ff;
+color: white;
+border-radius: 6px;
+  cursor: pointer; 
+     padding: 20px 18px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+margin-left: 150px;
+border: none; 
+display: block;
+  margin: 0 auto;
+}
+.contact-cont {
+   margin-top: 212rem;  
+  background-color: burlywood;
+}
+.contact-info {
+    /* margin-top: 170rem; */
+   
+    
+}
+.contact-info h1 {
+    color: blue;
+    font-size: 35px;
+    font-family: cursive;
+    ;
+}
+form {
+    padding: 20px;
+    background-color: blueviolet;
+}
+input,textarea{
+    margin-top: 20px;
+    
+    font-size: 28px;
+    border-radius: 10px;
+    padding: 10px  10px;
+    
+
+    width: 100%;
+    
+    gap: 20px;
+}
+h1 {
+    color: blue;
+    font-size: 35px;
+    font-family: cursive;
+    padding: 10px;
+}
+.send-btn {
+        background-color:#0866FF;
+   color:white;
+   padding: 10px 192px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+ text-decoration: none;
+ text-align: center
+}
+.send-btn:hover {
+    background-color: #FBCB61;
+    transition: all 0.4s;
+    
+}
+
+.explore {
+  padding: 2rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.testimonial-card {
+  background-color: burlywood;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.testimonial-card h2 {
+  color: blueviolet;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-card p {
+  font-family: 'Gill Sans', Calibri, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.note {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.note-cont {
+  background-color: blue;
+  margin-top: 50px;
+  padding: 2rem;
+  color: white;
+
+
+}
+
+/* Logo */
+.img img {
+  width: 120px;
+/* margin-right: 990px; */
+}
+.note {
+  
+}
+
+/* Button */
+.note button {
+    margin-left: 00px;
+  display: block;
+  margin-top: 1rem;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.note button:hover {
+    background-color: blueviolet;
+    transition: all 0.4s;
+}
+
+/* Links */
+/* .link ul {
+  list-style: none;
+  padding: 0;
+} */
+ .link h2{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .link h2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 25px;
+ }
+
+.link ul li {
+  margin-bottom: 0.5rem;
+  color: blue;
+}
+
+.link ul li a {
+  color:white;
+  text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.link ul li a:hover {
+    color: blueviolet;
+}
+
+/* Subscribe */
+.form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.sub-btn {
+  display: inline-block;
+
+  padding: 15px 199px;
+  background:#0077ff;
+  color: white;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.sub-btn:hover {
+    background-color: blueviolet;
+    transition: all 0.5s;
+}
+
+
+
+@media (min-width: 1000px) {
+  body {
+  height: vh;
+  }
+    .header {
+        height: 90vh;
+    }
+    .header h1 {
+        font-size: 30px;
+    }
+    .header p {
+        font-size: 25px;
+    }
+    .header-section {
+       margin-bottom: 20px;
+    }
+    .btn-cont {
+   display: grid;
+     padding: 20px 30pc;
+     gap: 20px;
+}
+    .learnbtn {
+        margin: none;
+      /* margin-left: 300px ;    */
+       padding: 10px  10px; 
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+     
+    }
+    .hero-cont {
+         display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .hero {
+        
+        
+        height: 90vh;
+        width: 300%;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .hero h1 {
+       margin: none;
+    }
+   .p-cont{
+        font-size: 25px;
+        margin-left: 710px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .explore-cont{
+        
+         display: grid;
+        grid-template-columns: 1fr 1fr 1fr ; 
+        gap: 20px;
+        padding: 10px;
+       
+    } 
+    .box {
+       background-color: blueviolet;
+        height: 200px;
+        width: 400px;
+    }
+    button {
+        
+             padding: 10px 18px;
+  background: #0077ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer; 
+  margin: none;
+  display: block;
+  margin: 0 auto;
+    }
+    .contact-cont {
+       /* margin-top: 212rem;  */
+        height: 500px;
+        
+        /* width: 630px; */
+        margin-top: 640px;
+    }
+    .contact-info {
+       
+       height: 20px;
+    }
+    .cta {
+        display: grid;
+        grid-template-columns: 1fr  1fr;
+    }
+    form  {
+        height: 500px;
+        
+        /* width: 630px; */
+        margin-top: 640px;
+    }
+    .send-btn  {
+       padding: 10px 234px;
+    }
+    textarea {
+  /* width: 100%; */
+  min-height: 10px;
+  padding: 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  resize: none;      
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.note-cont {
+  height: 90vh;
+}
+.sub-btn  {
+   padding: 15px 190px;
+}
+.form h3 {
+  font-size: 20px;
+  text-align: center;
+}
+.box-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+} 
+
+
+  
+
+
+}
